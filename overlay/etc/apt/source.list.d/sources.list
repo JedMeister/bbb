@@ -1,0 +1,6 @@
+#Default TKL sources.list - with non-free enabled
+deb http://archive.turnkeylinux.org/debian wheezy main
+
+deb http://cdn.debian.net/debian wheezy main
+deb http://cdn.debian.net/debian wheezy contrib
+deb http://cdn.debian.net/debian wheezy non-free

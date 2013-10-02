@@ -1,0 +1,3 @@
+#BigBlueButton upstream repo for v0.81
+
+deb http://ubuntu.bigbluebutton.org/lucid_dev_081/ bigbluebutton-lucid main

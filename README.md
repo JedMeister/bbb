@@ -1,14 +1,39 @@
-bbb
-===
+TurnKey BigBlueButton - Video Conference Appliance
+==================================================
 
-[BigBlueButton](http:///www.bigbluebutton.org/) Appliance - Education focused web conferencing server - To be built with [TKLDev](http://www.turnkeylinux.org/tkldev)
+[BigBlueButton](http:///www.bigbluebutton.org/) (BBB) is an open source web conferencing system for on-line learning. BigBlueButton enables you to share documents (PDF and any office document), webcams, chat, audio, and your desktop. It can also record sessions for later playback.
 
-BBB v0.81rc2
+BBB is not intended as a standalone server, but to be [integrated with other systems (such as Moodle, WordPress, Drupal and others](http://www.bigbluebutton.org/open-source-integrations/) via an API. It is not recommended to install other software alongside BBB (i.e. Moodle/WordPress/Drupal/etc should be running on another server).
 
-Notes:
-- This is for TKL v13.x (Debian Wheezy based)
-- To be built on [TKL Core](http://www.turnkeylinux.org/core)
-- Only installs on 64 bit machine (amd64)
-- Requires 2048MB RAM to function properly, it may run on less but not well (and probably won't run at all on 512MB)
-- BBB is not a standalone server. It provides an API for use by other apps - such as Moodle. However, for convenience and initial testing it comes with the API examples installed (this provides the ability to create a test meeting).
-- Despite the fact that BBB is designed to be integrated into other appliances/applications it is NOT recommended (by the BBB devs) that additional software be installed alongside BBB. 
+Requirements:
+- 64 bit only (amd64)
+- 2GB RAM (may run on less but not well)
+- Dual Core CPU (min 2.4GHz
+- Good upstream and downstream bandwidth
+
+Recommendations:
+- 4GB+ RAM
+- Quad Core CPU (2.6GHz+)
+- 100Mbps+ (up/down)
+- 500GB Storage (for recordings)
+- Bare metal install (or Server grade virtualisation)
+- Static IP
+- 48 hours of [Stress Testing](https://code.google.com/p/bigbluebutton/wiki/StressTesting) prior to production
+
+AWS EC2:
+- c1.medium (or greater CPU) EBS instance
+- elastic IP
+
+This appliance includes all the standard features in [TurnKey Core](http://www.turnkeylinux.org/core), and on top of that:
+- BBB configurations:
+    - BBB installed from upstream package repository
+    - NginX front end
+    - API secret regenerated on first boot *TODO*
+
+Credentials *(passwords set at first boot)*
+-------------------------------------------
+
+- Webmin, SSH: username **root**
+
+.. _BBB: ?What should go here?
+.. _TurnKey Core: http://www.turnkeylinux.org/core
