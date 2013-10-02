@@ -28,12 +28,10 @@ This appliance includes all the standard features in [TurnKey Core](http://www.t
 - BBB configurations:
     - BBB installed from upstream package repository
     - NginX front end
+    - BBB API demo app preinstalled (allows creation of demo conference) - Remove before production!
     - API secret regenerated on first boot *TODO*
 
 Credentials *(passwords set at first boot)*
 -------------------------------------------
 
 - Webmin, SSH: username **root**
-
-.. _BBB: ?What should go here?
-.. _TurnKey Core: http://www.turnkeylinux.org/core
