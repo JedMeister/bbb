@@ -11,16 +11,17 @@ Requirements:
 - 64 bit only (amd64)
 - 4GB RAM (may run on less but not well)
 - Quad Core CPU (2.6GHz)
-- 500MB of free storage space for recordings
+- 500MB of free storage space (for recordings)
 - 100Mbps bandwidth (symetrical)
 
 Recommendations:
 - 8GB+ RAM
-- Quad (or more) Core CPU (2.6GHz+)
+- Quad (or more) Core CPU (faster than 2.6GHz+)
 - 100Mbps+ (up/down)
-- 500GB Storage (for recordings)
+- 500GB+ Storage (for recordings)
 - Bare metal install (or Server grade virtualisation)
 - Static IP
+- No other software running on the server
 - 48 hours of [Stress Testing](https://code.google.com/p/bigbluebutton/wiki/StressTesting) prior to production
 
 AWS EC2:
