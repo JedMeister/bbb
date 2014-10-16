@@ -1,0 +1,3 @@
+#uncomment non-free
+
+sed -e "s|^#*.\(deb.*free\)|\1|" /etc/apt/sources.list.d/sources.list
