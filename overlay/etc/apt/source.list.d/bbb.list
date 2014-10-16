@@ -1,3 +1,4 @@
-#BigBlueButton upstream repo for v0.81
+#BigBlueButton upstream repo for v0.90
 
-deb http://ubuntu.bigbluebutton.org/lucid_dev_081/ bigbluebutton-lucid main
+deb http://ubuntu.bigbluebutton.org/trusty-090/ bigbluebutton-trusty main
+

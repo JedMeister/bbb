@@ -5,15 +5,18 @@ TurnKey BigBlueButton - Video Conference Appliance
 
 BBB is not intended as a standalone server, but to be [integrated with other systems (such as Moodle, WordPress, Drupal and others](http://www.bigbluebutton.org/open-source-integrations/) via an API. It is not recommended to install other software alongside BBB (i.e. Moodle/WordPress/Drupal/etc should be running on another server).
 
+This is designed to install BBB 0.90beta on TKL Core v13.x
+
 Requirements:
 - 64 bit only (amd64)
-- 2GB RAM (may run on less but not well)
-- Dual Core CPU (min 2.4GHz
-- Good upstream and downstream bandwidth
+- 4GB RAM (may run on less but not well)
+- Quad Core CPU (2.6GHz)
+- 500MB of free storage space for recordings
+- 100Mbps bandwidth (symetrical)
 
 Recommendations:
-- 4GB+ RAM
-- Quad Core CPU (2.6GHz+)
+- 8GB+ RAM
+- Quad (or more) Core CPU (2.6GHz+)
 - 100Mbps+ (up/down)
 - 500GB Storage (for recordings)
 - Bare metal install (or Server grade virtualisation)

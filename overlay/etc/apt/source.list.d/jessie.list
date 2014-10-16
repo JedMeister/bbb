@@ -1,0 +1,4 @@
+#Jessie repo
+
+deb http://ftp.debian.org/debian/ jessie main contrib non-free
+

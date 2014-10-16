@@ -1,2 +1,19 @@
 #include <turnkey/base>
 
+openjdk-7-jdk 
+ruby 
+sudo
+
+#For building FFMPEG - these could probably be uninstalled later...
+build-essential 
+git-core 
+checkinstall 
+yasm 
+texi2html 
+libvorbis-dev 
+libx11-dev 
+libvpx-dev 
+libxfixes-dev 
+zlib1g-dev 
+pkg-config 
+netcat

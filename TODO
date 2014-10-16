@@ -1,0 +1,15 @@
+TO DO List
+==========
+
++ confifgure UDP ports 16384 - 32768 to be open... Not sure how that is done but pretty sure it's done in the Makefile
+
++ inithook to set IP/hostname (and run bbb-conf --setip/--enablewebrtc/--clean/--check)
+
++ rejig backports & jessie to be enabled like it is in Canvas!
+   https://github.com/turnkeylinux-apps/canvas/blob/master/conf.d/00backports
+
++ Notes about audio on EC2 - ideally be nice to automate that somehow but in the meantime, document...!
+   https://code.google.com/p/bigbluebutton/wiki/090InstallationUbuntu#Audio_not_working
+
+
+
